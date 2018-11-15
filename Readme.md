@@ -1,3 +1,10 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [HomeController.cs](./CS/DXDocumentViewerExternalRibbon/Controllers/HomeController.cs) (VB: [HomeController.vb](./VB/DXDocumentViewerExternalRibbon/Controllers/HomeController.vb))
+* [_ReportPartial.cshtml](./CS/DXDocumentViewerExternalRibbon/Views/Home/_ReportPartial.cshtml)
+* [Index.cshtml](./CS/DXDocumentViewerExternalRibbon/Views/Home/Index.cshtml)
+<!-- default file list end -->
 # How to link the Document Viewer with an external Ribbon control
 
 
