@@ -8,8 +8,10 @@
 # How to link the Document Viewer with an external Ribbon control
 
 
-This example demonstrates how to create an external Ribbon toolbar and assign it to the <a href="https://documentation.devexpress.com/#AspNet/CustomDocument10009">Document Viewer</a>.<br><br>To add a Ribbon extension to a view, call the <a href="https://documentation.devexpress.com/#AspNet/DevExpressWebMvcUIExtensionsFactory_Ribbontopic(pB7XtA)">ExtensionsFactory.Ribbon</a> helper method. This method's parameter provides access to the Ribbon settings provided by the <a href="https://documentation.devexpress.com/#AspNet/clsDevExpressWebMvcRibbonSettingstopic">RibbonSettings</a> class allowing you to completely customize the extension. To link the created Ribbon with the Document Viewer, set the <a href="https://documentation.devexpress.com/#AspNet/DevExpressWebMvcDocumentViewerSettings_ToolbarModetopic">DocumentViewerSettings.ToolbarMode</a> property to <strong>ExternalRibbon</strong> and specify the <a href="https://documentation.devexpress.com/#AspNet/DevExpressWebMvcDocumentViewerSettings_AssociatedRibbonNametopic">DocumentViewerSettings.AssociatedRibbonName</a> property.<br><br>See also:<br><a href="https://www.devexpress.com/Support/Center/p/E3248">How to use XtraReports in an ASP.NET MVC application</a> <br><a href="https://www.devexpress.com/Support/Center/p/E4714">How to create a report dynamically in the ASP.NET MVC application</a>
+This example demonstrates how to create an external Ribbon toolbar and assign it to the Document Viewer.
 
-<br/>
+To add a Ribbon to a view, call the [ExtensionsFactory.Ribbon](https://docs.devexpress.com/AspNetMvc/DevExpress.Web.Mvc.UI.ExtensionsFactory.Ribbon.overloads) helper method. For this example, obtain the Document Viewer's ribbon items using the [DocumentViewerExtension.DefaultRibbonTabs](https://docs.devexpress.com/AspNetMvc/DevExpress.Web.Mvc.DocumentViewerExtension.DefaultRibbonTabs) property and hide items for certain export formats.
+
+To link the created Ribbon to the Document Viewer, set the [DocumentViewerSettings.ToolbarMode](https://docs.devexpress.com/AspNetMvc/DevExpress.Web.Mvc.DocumentViewerSettings.ToolbarMode) property to <strong>ExternalRibbon</strong> and specify the [DocumentViewerSettings.AssociatedRibbonName](https://docs.devexpress.com/AspNetMvc/DevExpress.Web.Mvc.DocumentViewerSettings.AssociatedRibbonName) property.
 
 
