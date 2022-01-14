@@ -14,7 +14,7 @@ Namespace DXDocumentViewerExternalRibbon.Controllers
         End Function
 
         Public Function ReportPartial() As ActionResult
-            Return MyBase.PartialView("_ReportPartial", report)
+            Return PartialView("_ReportPartial", report)
         End Function
 
         Public Function ReportPartialExport() As ActionResult

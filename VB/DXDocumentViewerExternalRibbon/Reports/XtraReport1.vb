@@ -5,7 +5,7 @@ Imports DevExpress.XtraReports.UI
 Namespace DXDocumentViewerExternalRibbon.Reports
 
     Public Partial Class XtraReport1
-        Inherits DevExpress.XtraReports.UI.XtraReport
+        Inherits XtraReport
 
         Public Sub New()
             InitializeComponent()
